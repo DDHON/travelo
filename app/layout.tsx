@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
 
+import { ThemeProvider } from "@/context/ThemeProvider";
+
 const jakarta = Plus_Jakarta_Sans({
   subsets: ["latin"],
   weight: ["200", "300", "400", "500", "600", "700", "800"],
@@ -10,7 +12,7 @@ const jakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Travelo",
+  title: "Travelo | Home",
   description: "Go Everywhere",
   icons: {
     icon: "/assets/images/navBrand.png",
@@ -25,9 +27,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${jakarta.variable}`}>
-        <h1 className="h1-bold">this is a pice of text</h1>
-        {children}
+      <body
+        className={`${jakarta.variable} background-light-dark200 text-dark100_light container  mx-auto py-[40px]`}
+      >
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );

@@ -45,7 +45,8 @@ module.exports = {
       //   "auth-light": "url('/assets/images/auth-light.png')",
       // },
       screens: {
-        xs: "420px",
+        xs: "430px",
+        md: "1024px",
       },
       keyframes: {
         "accordion-down": {

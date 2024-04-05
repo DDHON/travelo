@@ -13,9 +13,8 @@
     @apply bg-light-900 dark:bg-dark-200;
   }
   .text-dark100_light {
-    @apply text-dark-100 dark:text-light;
+    @apply text-dark-100 dark:text-light-900;
   }
-
   .h1-bold {
     @apply text-[70px] font-bold;
   }
