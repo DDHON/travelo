@@ -41,6 +41,9 @@ module.exports = {
       boxShadow: {
         "white-shadow":
           "0px 4px 10px 0px rgba(140, 140, 140, 0.1), 0px 18px 18px 0px rgba(140, 140, 140, 0.09),0px 40px 24px 0px rgba(140, 140, 140, 0.05), 0px 71px 29px 0px rgba(140, 140, 140, 0.01)",
+        "card-white": "0px 2px 70px 0px rgba(0, 0, 0, 0.06)",
+        "card-dark": "0px 2px 70px 0px rgba(255, 255, 255, 0.06)",
+
         // backgroundImage: {
         //   "auth-dark": "url('/assets/images/auth-dark.png')",
         //   "auth-light": "url('/assets/images/auth-light.png')",

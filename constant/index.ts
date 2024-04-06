@@ -62,19 +62,19 @@ export const SponsorshipDark = [
 
 export const ServicesCard = [
   {
-    img: "/assets/images/suitcase.png",
+    img: "/assets/icons/suitcase.svg",
     title: "All you Needs",
     description:
       "From flights, stays, to sights, just count on our complete products.",
   },
   {
-    img: "/assets/images/book.png",
+    img: "/assets/icons/book.svg",
     title: "All you Needs",
     description:
       "From flights, stays, to sights, just count on our complete products.",
   },
   {
-    img: "/assets/images/card.png",
+    img: "/assets/icons/card.svg",
     title: "All you Needs",
     description:
       "From flights, stays, to sights, just count on our complete products.",
