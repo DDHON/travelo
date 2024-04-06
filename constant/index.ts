@@ -27,19 +27,36 @@ export const navbar: NavbarLink[] = [
 
 export const Sponsorship = [
   {
-    img: "/assets/images/Traveloka.png",
+    img: "/assets/icons/Traveloka.svg",
   },
   {
-    img: "/assets/images/tiket.com.png",
+    img: "/assets/icons/tiket.com.svg",
   },
   {
-    img: "/assets/images/Booking.png",
+    img: "/assets/icons/Booking.svg",
   },
   {
-    img: "/assets/images/Tripadvisor.png",
+    img: "/assets/icons/Tripadvisor.svg",
   },
   {
-    img: "/assets/images/Airbnb.png",
+    img: "/assets/icons/Airbnb.svg",
+  },
+];
+export const SponsorshipDark = [
+  {
+    img: "/assets/icons/Traveloka_dark.svg",
+  },
+  {
+    img: "/assets/icons/tiket.com_dark.svg",
+  },
+  {
+    img: "/assets/icons/Booking_dark.svg",
+  },
+  {
+    img: "/assets/icons/Tripadvisor_dark.svg",
+  },
+  {
+    img: "/assets/icons/Airbnb_dark.svg",
   },
 ];
 

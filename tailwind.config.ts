@@ -38,12 +38,14 @@ module.exports = {
       fontFamily: {
         Plus_Jakarta_Sans: ["var(--font-Plus_Jakarta_Sans)"],
       },
-      boxShadow: " 0px 2px 80px 0px rgba(0, 0, 0, 0.1)",
-
-      // backgroundImage: {
-      //   "auth-dark": "url('/assets/images/auth-dark.png')",
-      //   "auth-light": "url('/assets/images/auth-light.png')",
-      // },
+      boxShadow: {
+        "white-shadow":
+          "0px 4px 10px 0px rgba(140, 140, 140, 0.1), 0px 18px 18px 0px rgba(140, 140, 140, 0.09),0px 40px 24px 0px rgba(140, 140, 140, 0.05), 0px 71px 29px 0px rgba(140, 140, 140, 0.01)",
+        // backgroundImage: {
+        //   "auth-dark": "url('/assets/images/auth-dark.png')",
+        //   "auth-light": "url('/assets/images/auth-light.png')",
+        // },
+      },
       screens: {
         xs: "430px",
         md: "1024px",
