@@ -3,6 +3,7 @@ import Navbar from "@/components/shared/Navbar";
 import Services from "@/components/shared/Services";
 import Sponsor from "@/components/shared/Sponsor";
 import TopDestination from "@/components/shared/TopDestination";
+import TravelPoint from "@/components/shared/TravelPoint";
 
 import React from "react";
 
@@ -14,6 +15,7 @@ const page = () => {
       <Sponsor />
       <Services />
       <TopDestination />
+      <TravelPoint />
     </>
   );
 };

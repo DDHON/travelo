@@ -104,3 +104,22 @@ export const Destination = [
     star: "4.9",
   },
 ];
+
+export const StatsPoins = [
+  {
+    count: "200+",
+    title: "Holiday Package",
+  },
+  {
+    count: "450",
+    title: "RedDoorz",
+  },
+  {
+    count: "10",
+    title: "Premium Airlines",
+  },
+  {
+    count: "12k+",
+    title: "Happy Customers",
+  },
+];
