@@ -44,7 +44,7 @@ const TravelPoint = () => {
                 <h2 className="mb-[20px] text-center text-[36px] font-bold text-primary-500">
                   {item.count}
                 </h2>
-                <p className="text-center text-[18px] font-medium">
+                <p className="text-center text-[18px] font-medium text-secondary">
                   {item.title}
                 </p>
               </div>
