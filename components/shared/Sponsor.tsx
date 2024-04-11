@@ -30,9 +30,8 @@ const Sponsor = () => {
             />
           ))}
         </div>
-        {/* <div className="relative">
-          <div className="absolute left-[1300px] size-[500px] rounded-full  bg-[#9747FF] object-right blur-[500px] max-md:left-[844px] max-sm:left-[269px]" />
-        </div> */}
+        {/* 
+        <div className="absolute left-[1300px] size-[500px] w-full rounded-full  bg-[#9747FF] object-right blur-[500px] max-md:left-[844px] max-sm:left-[269px]" /> */}
       </section>
     </>
   );

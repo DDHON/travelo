@@ -12,14 +12,14 @@ const TravelPoint = () => {
             alt="traveler"
             height={722}
             width={720}
-            className="z-50 hidden object-cover lg:block"
+            className="relative z-50 hidden object-cover lg:block"
           />
           <Image
             src="/assets/images/travelerMobile.png"
             alt="traveler"
             height={722}
             width={720}
-            className="z-50 hidden object-cover max-md:block"
+            className="relative z-50 hidden object-cover max-md:block"
           />
         </div>
         <div className="w-full flex-col items-center justify-center sm:items-start lg:max-w-[475px]">

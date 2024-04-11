@@ -123,3 +123,24 @@ export const StatsPoins = [
     title: "Happy Customers",
   },
 ];
+
+export const Feature = [
+  {
+    bg: "#872BFF",
+    img: "/assets/icons/location.svg",
+    title: "Select many location",
+    desc: "Chooce your favorite location ",
+  },
+  {
+    bg: "#FF8126",
+    img: "/assets/icons/schedule.svg",
+    title: "Schedule your trip",
+    desc: "Set the date you want",
+  },
+  {
+    bg: "#F411CF",
+    img: "/assets/icons/discount.svg",
+    title: "Big discount",
+    desc: "Get discount for every services",
+  },
+];

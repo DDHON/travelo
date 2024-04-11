@@ -46,7 +46,7 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="">
+        <div className="flex flex-1">
           <Image
             src="/assets/images/heroSection2x.png"
             alt="banner"

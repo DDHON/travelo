@@ -1,3 +1,4 @@
+import Features from "@/components/shared/Features";
 import HeroSection from "@/components/shared/HeroSection";
 import Navbar from "@/components/shared/Navbar";
 import Services from "@/components/shared/Services";
@@ -16,6 +17,7 @@ const page = () => {
       <Services />
       <TopDestination />
       <TravelPoint />
+      <Features />
     </>
   );
 };
