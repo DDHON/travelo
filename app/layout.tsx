@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${jakarta.variable} background-light-dark200 text-dark100_light container  mx-auto py-[40px]`}
+        className={`${jakarta.variable} background-light-dark200 text-dark100_light container mx-auto overflow-x-hidden`}
       >
         <ThemeProvider>{children}</ThemeProvider>
       </body>

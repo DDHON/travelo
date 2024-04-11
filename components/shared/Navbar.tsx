@@ -33,12 +33,12 @@ const MobileNav = () => {
           width={36}
           height={36}
           alt="menu"
-          className="md:hidden"
+          className="order-2 sm:order-1 md:hidden"
         />
       </SheetTrigger>
       <SheetContent
         side="left"
-        className="background-light-dark200 w-[200px] border-none "
+        className="background-light-dark200 border-none "
       >
         <Link href="/" className="flex items-center gap-1">
           <Image
@@ -78,8 +78,8 @@ const MobileNav = () => {
 const Navbar = () => {
   return (
     <>
-      <nav className="relative z-50 flex w-full flex-row items-center justify-between">
-        <div className="flex items-center gap-[14px]">
+      <nav className="relative z-50 flex w-full flex-row items-center justify-between  py-[40px]">
+        <div className="order-1 flex items-center gap-[14px] sm:order-2">
           <Image
             src="/assets/images/navBrand.png"
             width={40}
@@ -92,7 +92,7 @@ const Navbar = () => {
         </div>
         {/* <MobileNav /> */}
 
-        <div className="flex  gap-[70px] max-md:hidden ">
+        <div className="order-2  flex gap-[70px] max-md:hidden ">
           {navbar.map((item) => (
             <Link
               key={item.label}
@@ -103,8 +103,8 @@ const Navbar = () => {
             </Link>
           ))}
         </div>
-
-        <div className="flex flex-row justify-end gap-[10px] max-sm:hidden">
+        <div className="absolute left-[-250px] top-[-356px] z-0 size-[500px] rounded-full bg-[#ff26dc] blur-[500px]" />
+        <div className="order-3 flex flex-row justify-end gap-[10px] max-sm:hidden">
           <Themes />
           <Link href="">
             <Button className="text-dark100_light rounded-[30px] bg-transparent px-[34px] py-[16px] font-semibold hover:bg-primary-500 hover:text-light-900">
@@ -119,7 +119,6 @@ const Navbar = () => {
         </div>
         <MobileNav />
       </nav>
-      <div className="absolute left-[-250px] top-[-356px] z-0 size-[500px] rounded-full bg-[#ff26dc] blur-[500px]" />
     </>
   );
 };

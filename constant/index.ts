@@ -69,13 +69,13 @@ export const ServicesCard = [
   },
   {
     img: "/assets/icons/book.svg",
-    title: "All you Needs",
+    title: "Flexible Booking",
     description:
       "From flights, stays, to sights, just count on our complete products.",
   },
   {
     img: "/assets/icons/card.svg",
-    title: "All you Needs",
+    title: "Secure Payment",
     description:
       "From flights, stays, to sights, just count on our complete products.",
   },
@@ -83,25 +83,22 @@ export const ServicesCard = [
 
 export const Destination = [
   {
-    img: "/assets/images/destination",
+    tag: "indonesia",
+    img: "/assets/images/destination.png",
     title: "Pandawa Beach, Bali Island",
     price: "30.99",
     star: "4.9",
   },
   {
-    img: "/assets/images/destination",
+    tag: "Japan",
+    img: "/assets/images/destination.png",
     title: "Pandawa Beach, Bali Island",
     price: "30.99",
     star: "4.9",
   },
   {
-    img: "/assets/images/destination",
-    title: "Pandawa Beach, Bali Island",
-    price: "30.99",
-    star: "4.9",
-  },
-  {
-    img: "/assets/images/destination",
+    tag: "Bangkok",
+    img: "/assets/images/destination.png",
     title: "Pandawa Beach, Bali Island",
     price: "30.99",
     star: "4.9",
