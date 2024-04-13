@@ -7,7 +7,7 @@
     @apply bg-light-900 dark:bg-dark-200;
   }
   .background-light-dark300 {
-    @apply bg-light-900 dark:bg-dark-200;
+    @apply bg-light-900 dark:bg-dark-300;
   }
   .background-light-dark400 {
     @apply bg-light-900 dark:bg-dark-200;

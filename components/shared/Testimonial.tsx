@@ -1,6 +1,15 @@
 import React from "react";
-import TestimonialCard from "../card/TestimonialCard";
+
 import Image from "next/image";
+import TestimonialCard from "../card/TestimonialCard";
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Testimonial = () => {
   return (
@@ -22,16 +31,42 @@ const Testimonial = () => {
             alt="background testimonials"
             width={162}
             height={152}
-            className="absolute "
+            className="absolute z-50"
           />
         </div>
-        <TestimonialCard
-          img="/assets/images/avatar.png"
-          name="Irfan Rahmat"
-          proffesion="Travel Enthusiast"
-          rating={4}
-          message="I love Travelo, this is the best place to buy ticket and help you find your dream holiday."
-        />
+        <Carousel className="rounded-[30px] shadow-card-white">
+          <CarouselContent className="">
+            <CarouselItem className="">
+              <TestimonialCard
+                img="/assets/images/avatar.png"
+                name="Muhammad Ramadhoni"
+                proffesion="Programmer"
+                rating={5}
+                message="I love Travelo, this is the best place to buy ticket and help you find your dream holiday."
+              />
+            </CarouselItem>
+            <CarouselItem className="">
+              <TestimonialCard
+                img="/assets/images/avatar.png"
+                name="Irfan Rahmat"
+                proffesion="Web Designer"
+                rating={4}
+                message="I love Travelo, this is the best place to buy ticket and help you find your dream holiday."
+              />
+            </CarouselItem>
+            <CarouselItem className="">
+              <TestimonialCard
+                img="/assets/images/avatar.png"
+                name="Joe"
+                proffesion="Travel Enthusiast"
+                rating={4}
+                message="I love Travelo, this is the best place to buy ticket and help you find your dream holiday."
+              />
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
       </div>
     </>
   );

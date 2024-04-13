@@ -11,7 +11,7 @@ interface Props {
 }
 const TestimonialCard = ({ img, name, proffesion, rating, message }: Props) => {
   return (
-    <div className="mb-[500px] flex flex-1 items-center justify-center rounded-[30px] py-[50px] shadow-card-white dark:shadow-card-dark">
+    <div className="background-light-dark300 flex w-full  items-center justify-center rounded-[30px] py-[50px] shadow-card-white dark:shadow-card-dark ">
       <div className="flex flex-col items-center justify-center">
         <div className="flex size-[100px] items-center justify-center rounded-full bg-[#DAD0FB] ">
           <Image src={img} height={80} width={80} alt="avatar image" />
