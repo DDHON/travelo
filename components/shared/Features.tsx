@@ -31,14 +31,20 @@ const Features = () => {
           <div className="flex  flex-col items-center justify-center lg:items-start lg:justify-start ">
             {Feature.map((item) => (
               <div
-                className="flex max-w-[475px] flex-row rounded-[30px] py-[30px] pl-[30px] pr-0 hover:shadow-card-white dark:hover:shadow-card-dark md:pr-7"
+                className="flex w-[475px] flex-row rounded-[30px] px-0 py-[30px] hover:shadow-card-white dark:hover:shadow-card-dark max-sm:w-full sm:pl-[30px] "
                 key={item.title}
               >
                 <div
-                  className={`mr-[30px] flex size-[100px] items-center justify-center rounded-[30px]`}
+                  className={`mr-[30px] flex size-[100px] items-center justify-center rounded-[30px] object-contain`}
                   style={{ backgroundColor: item.bg }}
                 >
-                  <Image src={item.img} alt="feature" width={43} height={43} />
+                  <Image
+                    src={item.img}
+                    alt="feature"
+                    width={43}
+                    height={43}
+                    className="object-contain"
+                  />
                 </div>
                 <div className=" flex  flex-col items-start justify-center">
                   <h2 className="text-dark100_light text-wrap text-start text-[24px] font-bold">

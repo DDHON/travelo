@@ -3,6 +3,7 @@ import HeroSection from "@/components/shared/HeroSection";
 import Navbar from "@/components/shared/Navbar";
 import Services from "@/components/shared/Services";
 import Sponsor from "@/components/shared/Sponsor";
+import Testimonial from "@/components/shared/Testimonial";
 import TopDestination from "@/components/shared/TopDestination";
 import TravelPoint from "@/components/shared/TravelPoint";
 
@@ -18,6 +19,7 @@ const page = () => {
       <TopDestination />
       <TravelPoint />
       <Features />
+      <Testimonial />
     </>
   );
 };
