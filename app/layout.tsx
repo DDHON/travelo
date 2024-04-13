@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import React from "react";
 // eslint-disable-next-line camelcase
 import { Plus_Jakarta_Sans } from "next/font/google";
 import "./globals.css";
