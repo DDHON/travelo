@@ -10,7 +10,7 @@ interface Props {
 }
 const TopDestinationCard = ({ tag, img, title, price, rating }: Props) => {
   return (
-    <div className="flex flex-col items-start  justify-center rounded-t-[30px] bg-transparent shadow-card-white dark:shadow-card-dark ">
+    <div className="background-light-dark400 flex flex-col  items-start justify-center rounded-[30px] shadow-card-white dark:shadow-card-dark ">
       <div className="relative ">
         <p className="absolute z-50 w-[145px] rounded-br-[30px] rounded-tl-[30px] bg-primary-100 p-3 px-[30px] text-center text-[18px] font-medium text-white">
           {tag}

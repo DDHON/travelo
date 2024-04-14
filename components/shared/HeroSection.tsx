@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="relative mt-[140px] w-full">
+    <section className="relative mt-[70px] w-full">
       <div className="flex flex-col-reverse items-center md:flex-row md:justify-between">
         <div className="flex max-w-[530px] flex-col items-center text-center md:items-start md:text-start">
           <div className="my-10 flex max-w-[220px] flex-row gap-3 rounded-[30px] bg-white px-6 py-4  shadow-white-shadow md:my-0">

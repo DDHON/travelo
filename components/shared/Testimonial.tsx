@@ -14,7 +14,7 @@ import {
 const Testimonial = () => {
   return (
     <>
-      <div className="mb-[30px] flex w-full flex-col items-center justify-center">
+      <div className="mb-[30px]  flex  w-full flex-col items-center justify-center max-sm:mb-[160px]">
         <div className="">
           <h3 className="text-center text-[24px] font-bold tracking-[0.30em] text-primary-100 ">
             Testimonials
@@ -64,8 +64,8 @@ const Testimonial = () => {
               />
             </CarouselItem>
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="max-sm:-top-20 max-sm:left-1/4 max-sm:size-[60px]" />
+          <CarouselNext className="max-sm:-top-20 max-sm:right-1/4 max-sm:size-[60px]" />
         </Carousel>
       </div>
     </>

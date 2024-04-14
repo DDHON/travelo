@@ -28,10 +28,10 @@ const Features = () => {
               just find where you want to go and buy the ticket.
             </p>
           </div>
-          <div className="flex  flex-col items-center justify-center lg:items-start lg:justify-start ">
+          <div className="flex  flex-col items-center  justify-center gap-[30px] lg:items-start lg:justify-start">
             {Feature.map((item) => (
               <div
-                className="flex w-[475px] flex-row rounded-[30px] px-0 py-[30px] hover:shadow-card-white dark:hover:shadow-card-dark max-sm:w-full sm:pl-[30px] "
+                className="hover:background-light-dark400 flex w-[475px] flex-row rounded-[30px] px-0 py-[30px] hover:shadow-card-white dark:hover:shadow-card-dark max-sm:w-full sm:pl-[30px] "
                 key={item.title}
               >
                 <div

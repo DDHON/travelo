@@ -35,10 +35,10 @@ const TravelPoint = () => {
               just find where you want to go and buy the ticket.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-[35px]   max-sm:grid-cols-2 lg:grid-cols-2">
+          <div className=" grid grid-cols-4 gap-[35px]  max-sm:grid-cols-2 lg:grid-cols-2">
             {StatsPoins.map((item) => (
               <div
-                className="rounded-[30px] border border-secondary/20  py-[35px] "
+                className="background-light-dark400 rounded-[30px] border border-secondary/20 py-[35px] dark:border-none "
                 key={item.title}
               >
                 <h2 className="mb-[20px] text-center text-[36px] font-bold text-primary-500">
