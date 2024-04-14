@@ -144,3 +144,17 @@ export const Feature = [
     desc: "Get discount for every services",
   },
 ];
+export const FooterLinks = [
+  {
+    category: "About",
+    links: ["How to Book", "Contact Us", "Help Center", "Carreer"],
+  },
+  {
+    category: "Products",
+    links: ["Flights", "Hotels", "Trains", "Villas"],
+  },
+  {
+    category: "Other",
+    links: ["Blog", "Privacy Notice"],
+  },
+];

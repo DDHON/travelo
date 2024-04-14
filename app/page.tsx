@@ -1,4 +1,5 @@
 import Features from "@/components/shared/Features";
+import Footer from "@/components/shared/Footer";
 import HeroSection from "@/components/shared/HeroSection";
 import Navbar from "@/components/shared/Navbar";
 import Services from "@/components/shared/Services";
@@ -22,6 +23,7 @@ const page = () => {
       <Features />
       <Testimonial />
       <Subscribe />
+      <Footer />
     </>
   );
 };
