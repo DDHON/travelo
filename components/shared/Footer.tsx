@@ -48,7 +48,10 @@ const Footer = () => {
               </h3>
               <ul>
                 {item.links.map((link, linkIndex) => (
-                  <li key={linkIndex} className="mb-[30px]">
+                  <li
+                    key={linkIndex}
+                    className="mb-[30px] font-medium text-secondary"
+                  >
                     <Link href="/">{link}</Link>
                   </li>
                 ))}
